@@ -1,0 +1,64 @@
+{
+  "name": "nextjs-template",
+  "version": "1.0.0",
+  "description": "Deadsimple Next-js Starter Project",
+  "main": "pages/index.js",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/SahilLangoo/nextjs-template#readme",
+  "author": {
+    "name": "Sahil",
+    "email": "sahillangoo@protonmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SahilLangoo/nextjs-template"
+  },
+  "keywords": [
+    "starter kit",
+    "react",
+    "next-js",
+    "tailwind",
+    "eslint",
+    "webpack",
+    "prettier",
+    "empty project",
+    "kick start",
+    "boilerplate"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "env-build": "cross-env NODE_ENV=production next build",
+    "start": "next start",
+    "clean": "rimraf .next",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "precommit": "npm run lint-fix && npm run pretty",
+    "prepush": "npm run lint"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "next": "11.0.1",
+    "next-seo": "^4.26.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^11.0.1",
+    "@next/eslint-plugin-next": "^11.0.1",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.30.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.1",
+    "postcss": "^8.3.5",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^2.2.4"
+  }
+}

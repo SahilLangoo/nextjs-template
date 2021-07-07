@@ -1,0 +1,28 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: optional;
+  src: url('/fonts/Heebo-VariableFont_wght.ttf') format('truetype');
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Heebo, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
